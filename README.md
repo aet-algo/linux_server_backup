@@ -95,5 +95,6 @@ exit 0
 ###Deployment & Scheduling
 1.  Apply execution permissions:
 '''
+#!/bin/bash
 sudo chmod +x /usr/local/bin/system_backup.sh
 '''
