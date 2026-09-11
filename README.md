@@ -99,3 +99,9 @@ exit 0
 
 sudo chmod +x /usr/local/bin/system_backup.sh
 ```
+
+##2.  Schedule the script to run automatically every Sunday at 2:00 AM via the root crontab:
+sudo crontab -e
+
+##Add the following cron expression:
+0 2 * * 0 /usr/local/bin/system_backup.sh
