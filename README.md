@@ -90,3 +90,10 @@ echo "[$(date +'%Y-%m-%d %H:%M:%S')] Backup routine finished." >> "$LOG_FILE"
 echo "==================================================" >> "$LOG_FILE"
 
 exit 0
+'''
+
+###Deployment & Scheduling
+1.  Apply execution permissions:
+'''
+sudo chmod +x /usr/local/bin/system_backup.sh
+'''
