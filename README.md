@@ -96,5 +96,6 @@ exit 0
 1.  Apply execution permissions:
 ```bash
 #!/bin/bash
+
 sudo chmod +x /usr/local/bin/system_backup.sh
 ```
